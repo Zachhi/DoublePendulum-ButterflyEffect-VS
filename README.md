@@ -1,7 +1,20 @@
 # DoublePendulum-VS
 Simulates a plethora of visually pleasing ways to see how a double pendulum behaves and it's chaotic nature, including the butterfly effect.
 
-This program simulates a physically accurate double pendulum. I added 3 different style's which help us visualize the behavior and qualities of a double pendulum better. The first style you can just think of as "normal". You can see the whole pendulum (arm + body) where the bodies are white and the arms are gray. This allows us to see how the double pendulum behaves under normal circumstances and how the arms and bodies move together. The second style you can think of as turning the lights off. Eveything becomes invisible except the second body. The second body also takes on a random pastel color, instead of being white. This allows us to simulate the randomness of double pendulums, and allows us to see how different bodies move. Say we spawn 5 double pendulums in style 2. We will only see 5 bodies, but you will see these 5 bodies move in completley different ways. Style 3 is the most interesting by far. This style simulates the butterfly affect. When you click "A", 10,000 pendulums spawn, with a total angle difference of .0001 radians between the first and last pendulum. The amount of pendulums apwning and the angle difference can be changed. This allows us to see the complete chaos of doubule pendulums, as well as adding some stunning visual affects. Each pendulum will move nearly the same for the first 15-30 seconds...after a while, the pendulums start breaking up and going all over the place. This simulated how even when pendulums are spaced a millionth of a radian apart, they will still be in comopletley different positions after some time.
+# About
+This program simulates a physically accurate double pendulum. However, we are assuming there are no external forces other than gravity. Things like friction and air resistance are non-existenet. This is to make the simulation more interesting...especially the butterfly effect. I added 3 different style's, as well as 3 different trail types, in order to help us visualize the behavior and qualities of a double pendulum better. Note: Imagine a single pendulum; the bar holding the weight at the bottom is the "arm". The weight at the bottom is the "body". You also have the ability to make the double pendulums a triple, quad, etc. pendulum. However, only the double pendulum is physically accurate, but the others lead to some interesting results.
+
+**Style 1**
+
+The first style you can just think of as "normal". You can see the whole pendulum (arm + body) where the bodies are white and the arms are gray. This allows us to see how the double pendulum behaves under normal circumstances and how the arms and bodies move together. This shows us how a real-life pendulum were to look if it were in front of us.
+
+**Style 2**
+
+The second style you can think of as turning the lights off. Eveything becomes invisible except the second body. This is because the second body shows the entire double pendulum's movement. It is the main point of the pendulum. The first body simply moves within the same circle, and the arms are there just to hold and connect the bodies. The second body also takes on a random pastel color, instead of being white. This allows us to simulate the difference of movement between double pendulums, and allows us to see the randomness of the different bodies compared to each other. Say we spawn 5 double pendulums in style 2. We will only see 5 bodies, but you will see these 5 bodies move in completley different ways. Changing to style 2 while already in style 2 will change the bodies colors if you don't like them.
+
+**Style 3**
+
+Style 3 is the most interesting by far, and it simulates the butterfly affect. This style makes the bodies invisible and only the arms are visible. This is simply because it looks much better like this. When you click "A", 10,000 pendulums spawn, with a total angle difference of .0001 radians between the first and last pendulum. The amount of pendulums spawning and the angle difference can be changed. This allows us to see the complete chaos of doubule pendulums, as well as adding some stunning visual affects. Each pendulum will move nearly the same for the first 15-30 seconds. After a while, the pendulums start breaking up and going all over the place. This simulateds how pendulums that are spaced a millionth of a radian apart  will still be in comopletley different positions after some time. This shows the statement of "the slightest difference in the starting position leads to completley different results over time", hence the name "butterfly effect". Changing to style 3 while already in style 3 will change the colors if you dont like them. 
 
 **Note: This version requires Visual Studio. If you do not have access to Visual Studio, here is a version that works for linux and windows that requires no setup: https://github.com/Zachhi/DoublePendulum-Windows-Linux**
 
@@ -13,9 +26,6 @@ This program simulates a physically accurate double pendulum. I added 3 differen
 * Bottom Right:
   * Shows current game speed
   * Shows the current "style"
-    * Style 1: Shows full pendulum, arms and bodies
-    * Style 2: Only shows the second bodies, hides the arms and first bodies. Colors the second bodies a random color
-    * Style 3: Meant to show the butterfly effect. Only shows arms.
   * Shows current trail type
     * fade: Trails have certain length, and constantly fades away to keep this length
     * always: Trails never fade away, shows the entire length of trail
@@ -25,7 +35,7 @@ This program simulates a physically accurate double pendulum. I added 3 differen
 #### Input
 * LShift: See all the controls (will show in top left)
 * A: Add a double pendulum. When on style 3, this will add 10,000 double pendulums with a total angle difference of .0001 radians so we can see the butterfly effect
-* S: Add a section to the last pendulum spawned. This allows you to make triple/quad/etc pendulums. However, these are not physically accurate, and only the double pendulum is physically accurate. When on style 3, this will add a section to every existing pendulum
+* S: Add a section to the last pendulum spawned. This allows you to make triple/quad/etc pendulums. When on style 3, this will add a section to every existing pendulum
 * Space: Pause the game
 * Up/down arrow: Increase/decrease game speed
 * 1: Change to style 1
