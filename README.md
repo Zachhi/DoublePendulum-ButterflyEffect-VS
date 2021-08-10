@@ -14,7 +14,11 @@ The second style you can think of as turning the lights off. Eveything becomes i
 
 **Style 3**
 
-Style 3 is the most interesting by far, and it simulates the butterfly affect. This style makes the bodies invisible and only the arms are visible. This is simply because it looks much better like this. When you click "A", 10,000 pendulums spawn, with a total angle difference of .0001 radians between the first and last pendulum. The amount of pendulums spawning and the angle difference can be changed. This allows us to see the complete chaos of doubule pendulums, as well as adding some stunning visual affects. Each pendulum will move nearly the same for the first 15-30 seconds. After a while, the pendulums start breaking up and going all over the place. This simulateds how pendulums that are spaced a millionth of a radian apart  will still be in comopletley different positions after some time. This shows the statement of "the slightest difference in the starting position leads to completley different results over time", hence the name "butterfly effect". Changing to style 3 while already in style 3 will change the colors if you dont like them. 
+Style 3 is the most interesting by far, and it simulates the butterfly affect. This style makes the bodies invisible and only the arms are visible. This is simply because it looks much better like this. When you click "A", 10,000 pendulums spawn, with a total angle difference of .0001 radians between the first and last pendulum. The amount of pendulums spawning and the angle difference can be changed. This allows us to see the complete chaos of doubule pendulums, as well as adding some stunning visual affects. Each pendulum will move nearly the same for the first 15-30 seconds. After a while, the pendulums start breaking up and going all over the place. This simulateds how pendulums that are spaced a millionth of a radian apart  will still be in comopletley different positions after some time. This shows the statement of "the slightest difference in the starting position leads to completley different results over time", hence the name "butterfly effect". Changing to style 3 while already in style 3 will change the colors if you dont like them. Changing colors also changes transparency in this order: Very transparent->slightly transparent->not transparent. Colors are chosen at random with an algorithm I created. It will either be a random color that fades from white->color->black, or random colors that fade from white->color->color->color->black. These different options lead to very visually pleasing results.
+
+**Trails**
+
+There are 3 different types of trails. The first one is fade. Trails have a set length and the back of the tail will always fade away to keep this length. The second one is always. The trail is always on screen and never dissapears. The last one is none. There is no trail. Mixing these trail types with the different styles lead to interesting results.
 
 **Note: This version requires Visual Studio. If you do not have access to Visual Studio, here is a version that works for linux and windows that requires no setup: https://github.com/Zachhi/DoublePendulum-Windows-Linux**
 
@@ -27,9 +31,6 @@ Style 3 is the most interesting by far, and it simulates the butterfly affect. T
   * Shows current game speed
   * Shows the current "style"
   * Shows current trail type
-    * fade: Trails have certain length, and constantly fades away to keep this length
-    * always: Trails never fade away, shows the entire length of trail
-    * none: No trail shown
 * Top Left: Shows the rules
 
 #### Input
