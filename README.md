@@ -1,5 +1,7 @@
 # DoublePendulum-VS
-Simulates a plethora of ways a double pendulum behaves
+Simulates a plethora of visually pleasing ways to see how a double pendulum behaves, and it's chaotic nature, including the butterfly effect.
+
+This program simulates a physically accurate double pendulum. I added 3 different style's which help us visualize the behavior and qualities of a double pendulum better.
 
 **Note: This version requires Visual Studio. If you do not have access to Visual Studio, here is a version that works for linux and windows that requires no setup: https://github.com/Zachhi/DoublePendulum-Windows-Linux**
 
