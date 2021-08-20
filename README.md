@@ -24,6 +24,8 @@ There are 3 different types of trails. The first one is fade. Trails have a set 
 
 ## Demo
 
+https://www.youtube.com/watch?v=sKC-cpFBwPs
+
 ## Controls
 
 #### GUI
