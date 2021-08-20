@@ -1,8 +1,12 @@
 # DoublePendulum-ButterflyEffect-VS
 Simulates a plethora of visually pleasing ways to see how a double pendulum behaves and it's chaotic nature, including the butterfly effect.
 
+## Demo
+
+https://www.youtube.com/watch?v=sKC-cpFBwPs
+
 # About
-This program simulates a physically accurate double pendulum. However, we are assuming there are no external forces other than gravity. Things like friction and air resistance are non-existenet. This is to make the simulation more interesting...especially the butterfly effect. I added 3 different style's, as well as 3 different trail types, in order to help us visualize the behavior and qualities of a double pendulum better. Note: Imagine a single pendulum; the bar holding the weight at the bottom is the "arm". The weight at the bottom is the "body". You also have the ability to make the double pendulums a triple, quad, etc. pendulum. However, only the double pendulum is physically accurate, but the others lead to some interesting results.
+This program simulates a physically accurate double pendulum. However, we are assuming there are no external forces other than gravity. Things like friction and air resistance are non-existent. This is to make the simulation more interesting...especially the butterfly effect. I added 3 different style's, as well as 3 different trail types, in order to help us visualize the behavior and qualities of a double pendulum better. Note: Imagine a single pendulum; the bar holding the weight at the bottom is the "arm". The weight at the bottom is the "body". You also have the ability to make the double pendulums a triple, quad, etc. pendulum. However, only the double pendulum is physically accurate, but the others lead to some interesting results.
 
 **Style 1**
 
@@ -21,10 +25,6 @@ Style 3 is the most interesting by far, and it simulates the butterfly affect. T
 There are 3 different types of trails. The first one is fade. Trails have a set length and the back of the tail will always fade away to keep this length. The second one is always. The trail is always on screen and never dissapears. The last one is none. There is no trail. Mixing these trail types with the different styles lead to interesting results.
 
 **Note: This version requires Visual Studio. If you do not have access to Visual Studio, here is a version for linux and windows that requires no setup: https://github.com/Zachhi/DoublePendulum-ButterflyEffect-Windows-Linux**
-
-## Demo
-
-https://www.youtube.com/watch?v=sKC-cpFBwPs
 
 ## Controls
 
