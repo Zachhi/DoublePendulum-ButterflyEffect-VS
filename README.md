@@ -1,5 +1,5 @@
 # DoublePendulum-ButterflyEffect-VS
-Simulates a plethora of visually pleasing ways to see how a double pendulum behaves and it's chaotic nature, including the butterfly effect.
+Simulates a plethora of visually pleasing ways to see a double pendulum's behavior and it's chaotic nature, including the butterfly effect.
 
 ## Demo
 
