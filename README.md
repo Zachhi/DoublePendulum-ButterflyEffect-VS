@@ -6,7 +6,10 @@ Simulates a plethora of visually pleasing ways to see how a double pendulum beha
 https://www.youtube.com/watch?v=sKC-cpFBwPs
 
 # About
-This program simulates a physically accurate double pendulum. However, we are assuming there are no external forces other than gravity. Things like friction and air resistance are non-existent. This is to make the simulation more interesting...especially the butterfly effect. I added 3 different style's, as well as 3 different trail types, in order to help us visualize the behavior and qualities of a double pendulum better. Note: Imagine a single pendulum; the bar holding the weight at the bottom is the "arm". The weight at the bottom is the "body". You also have the ability to make the double pendulums a triple, quad, etc. pendulum. However, only the double pendulum is physically accurate, but the others lead to some interesting results.
+
+This program simulates a physically accurate double pendulum. The purpose is to show it's behavior as well as it's chaos/unpredictableness quality in multiple visual ways. A double pendulum is known for it's ability to simulate chaos and randomness. Given two double pendulums, spaced only a millionth of a radian apart, after 15-30 seconds these pendulums will have completley different motion. This is an example of it's chaos - it's starting position matters **signifigantly**. I have decided to represent these qualities in a variety of different visual ways using this program. 
+
+However, we are assuming there are no external forces other than gravity. Things like friction and air resistance are non-existent. This is to make the simulation more interesting...especially the butterfly effect. I added 3 different style's, as well as 3 different trail types, in order to help us visualize the behavior and qualities of a double pendulum better. Note: Imagine a single pendulum; the bar holding the weight at the bottom is the "arm". The weight at the bottom is the "body". You also have the ability to make the double pendulums a triple, quad, etc. pendulum. However, only the double pendulum is physically accurate, but the others lead to some interesting results.
 
 **Style 1**
 
