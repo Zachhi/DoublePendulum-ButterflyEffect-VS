@@ -8,7 +8,7 @@ Simulates a plethora of visually pleasing ways to see a double pendulum's behavi
 ![Demo](https://github.com/Zachhi/DoublePendulum-ButterflyEffect-VS/blob/master/pendulumDemonstration.gif)
 
 Watch the video here (above is only a 10 second gif): 
- https://www.youtube.com/watch?v=sKC-cpFBwPs
+https://www.youtube.com/watch?v=zVo4oz1-nTU
 
 # About
 
