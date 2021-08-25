@@ -1,6 +1,8 @@
 # DoublePendulum-ButterflyEffect-VS
 Simulates a plethora of visually pleasing ways to see a double pendulum's behavior and it's chaotic nature, including the butterfly effect.
 
+**Note: This version requires Visual Studio. If you do not have access to Visual Studio, here is a version for linux and windows that requires no setup: https://github.com/Zachhi/DoublePendulum-ButterflyEffect-Windows-Linux**
+
 # Demo
 
 (Quality much worse here due to gif-conversion)
@@ -31,8 +33,6 @@ Style 3 is the most interesting by far, and it simulates the butterfly affect. T
 **Trails**
 
 There are 3 different types of trails. The first one is fade. Trails have a set length and the back of the tail will always fade away to keep this length. The second one is always. The trail is always on screen and never dissapears. The last one is none. There is no trail. Mixing these trail types with the different styles lead to interesting results.
-
-**Note: This version requires Visual Studio. If you do not have access to Visual Studio, here is a version for linux and windows that requires no setup: https://github.com/Zachhi/DoublePendulum-ButterflyEffect-Windows-Linux**
 
 ## Controls
 
